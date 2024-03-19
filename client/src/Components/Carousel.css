@@ -1,0 +1,7 @@
+.carousel{
+    width: 500px;
+    height: auto;
+    float: left;
+    flex: 0 1 auto;
+    align-self: center;
+}
