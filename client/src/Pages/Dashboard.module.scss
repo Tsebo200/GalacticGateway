@@ -11,3 +11,10 @@
     align-content: stretch;
     align-items: flex-start;
 }
+
+.image_container{
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    background-image: url('../Assets/Header_background.png');
+}
