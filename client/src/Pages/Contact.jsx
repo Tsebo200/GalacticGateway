@@ -1,19 +1,9 @@
-import React from "react";
-import NavBar from "../Components/NavBar";
-import styles from "../Pages/Contact.module.scss";
-
+import React from 'react';
 
 function Contact() {
   return (
-    <>
-      <NavBar />
-      <div className={styles.google_earth_flexcontainer}>
-        <div className={styles.earth_location_image}></div>
-      </div>
-      <Contact/>
-      <div> Contact</div>
-    </>
-  );
+    <div>Contact</div>
+  )
 }
 
-export default Contact;
+export default Contact
