@@ -4,7 +4,7 @@ import Dashboard from '../Pages/Dashboard';
 import { Route, Routes } from 'react-router-dom';
 import Contact from '../Pages/Contact';
 import Teams from '../Pages/Teams';
-import Home from '../Components/Navbar';
+import Home from '../Components/Navbar/Navbar';
 
 function App() {
   return (

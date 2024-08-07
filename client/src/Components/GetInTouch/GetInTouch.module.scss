@@ -1,0 +1,20 @@
+@import '../../styles.scss';
+
+.container{
+    width: 160px;
+    height: 55px;
+    margin-right: 122px;
+    margin-top: 24px;
+    border-radius: 100px;
+    border: solid 4px $secondary;
+    // background: red;
+    float: right;
+}
+.text{
+    // margin-top: 14px;
+    line-height: 22.4px;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 700;
+    color: $white;
+}

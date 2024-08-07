@@ -1,11 +1,14 @@
 import React from 'react';
-import Navbar from '../Components/Navbar';
+import Navbar from '../Components/Navbar/Navbar';
+import styles from './Dashboard.module.scss';
 
 function Dashboard() {
   return (
 <>
-<Navbar/>
-    <div>Dashboard</div>
+
+  <div className={styles.dashboardBackground}>
+  <Navbar/>
+  </div>
 
     </>
   )
